@@ -31,7 +31,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
-    library: "react-sticky-headers-list",
+    library: "react-scrollable-accordion",
     libraryTarget: "umd"
   },
   externals: {

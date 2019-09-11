@@ -1,7 +1,7 @@
 import React from "react";
 
-import { cleanup, render, wait } from "react-testing-library";
-import "jest-dom/extend-expect";
+import { cleanup, render, wait } from "@testing-library/react";
+import "@testing-library/jest-dom";
 
 import List from "./List";
 import ListHeader from "./ListHeader";
