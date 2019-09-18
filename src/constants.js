@@ -9,7 +9,8 @@ const styles = {
     boxSizing: "border-box",
     height: "inherit",
     margin: 0,
-    overflow: "scroll",
+    overflowX: "hidden",
+    overflowY: "scroll",
     padding: 0
   },
   ListHeader: {
